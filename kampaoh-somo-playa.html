@@ -88,6 +88,33 @@
     .btn-google { background-color: #fff; color: #3c3c3c; border: 2px solid #e0e0e0; }
     .btn svg { flex-shrink: 0; width: 20px; height: 20px; }
     .footnote { margin-top: 24px; font-size: 11px; color: #bbb; line-height: 1.5; }
+    .bases {
+      margin-top: 24px;
+      border-top: 1px solid #eee;
+      padding-top: 16px;
+      text-align: left;
+    }
+    .bases summary {
+      font-size: 12px;
+      color: #aaa;
+      cursor: pointer;
+      list-style: none;
+      text-align: center;
+      padding: 4px 0;
+    }
+    .bases summary:hover { color: #888; }
+    .bases-body {
+      margin-top: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .bases-body p {
+      font-size: 11px;
+      color: #aaa;
+      line-height: 1.6;
+    }
+    .bases-body strong { color: #888; }
     @media (max-width: 480px) {
       .card-header { padding: 28px 24px 22px; }
       .card-body { padding: 24px 24px 32px; }
@@ -125,7 +152,17 @@
           Reseña en Google
         </a>
       </div>
-      <p class="footnote">El sorteo se celebra mensualmente entre todos los participantes que hayan dejado una reseña en TripAdvisor ese mes. ¡Mucha suerte!</p>
+      <details class="bases">
+        <summary>Bases legales del sorteo ▾</summary>
+        <div class="bases-body">
+          <p><strong>Organizador:</strong> AKAMPAO MOVMENT S.L., Calle Vicente Traver y Tomás, 11, CP 41120, Sevilla.</p>
+          <p><strong>Período:</strong> El sorteo recoge las reseñas publicadas en TripAdvisor del 1 al 30 de junio de 2025. El sorteo se celebrará el 30 de junio de 2025.</p>
+          <p><strong>Premio:</strong> DIEZ (10) ganadores recibirán 2 noches gratuitas en cualquier establecimiento Kampaoh para dos personas, canjeables desde el 11/04/2025 hasta el 11/04/2026, excluyendo temporada alta. El destino se asignará en función de disponibilidad. Cada estancia debe reservarse con un mínimo de 7 días de antelación.</p>
+          <p><strong>Condiciones:</strong> El ganador podrá añadir hijos (4-17 años) gratuitamente. Personas adicionales llevarán suplemento. Premio intransferible — el titular de la reserva deberá ser siempre el ganador. No incluye desplazamientos, dietas ni servicios adicionales. Se aplican las condiciones generales de reserva de Kampaoh.</p>
+          <p><strong>Notificación:</strong> El ganador será contactado por email en un plazo máximo de 7 días tras el sorteo.</p>
+          <p><strong>Protección de datos:</strong> Los datos serán tratados por AKAMPAO MOVMENT S.L. conforme al RGPD y no serán cedidos a terceros.</p>
+        </div>
+      </details>
     </div>
   </div>
 </body>
